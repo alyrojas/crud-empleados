@@ -1,0 +1,30 @@
+###
+Get http://localhost:3000/empleados/62bf185a03aa3fd20271121b
+ 
+###
+POST http://localhost:3000/empleados
+Content-Type: application/json
+
+{
+    "nombre": "Elizabeth",
+    "puesto": "Director",
+    "email": "elizabethe@disney.com",
+    "sueldo": 30000
+}
+
+
+###
+DELETE http://localhost:3000/empleados/62c32fe124811570dc1ff651
+
+###
+PUT http://localhost:3000/empleados/62bf185a03aa3fd20271121b
+Content-Type: application/json
+
+{
+    "puesto": "Gerente",
+    "sueldo": 50000
+}
+
+
+
+
