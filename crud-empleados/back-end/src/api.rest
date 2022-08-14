@@ -1,0 +1,30 @@
+###
+Get http://localhost:3000/empleados/2
+ 
+###
+POST http://localhost:3000/empleados
+Content-Type: application/json
+
+{
+    "nombre": "Eli",
+    "puesto": "Supervisor",
+    "email": "eli@disney.com",
+    "sueldo": 15000
+}
+
+
+###
+DELETE http://localhost:3000/empleados/4
+
+###
+PUT http://localhost:3000/empleados/2
+Content-Type: application/json
+
+{
+    "puesto": "Gerente",
+    "sueldo": 50000
+}
+
+
+
+
